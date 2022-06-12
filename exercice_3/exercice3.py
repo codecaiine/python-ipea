@@ -9,4 +9,4 @@ while True:
         continue
     else:
         break
-print(maListe)
+print("Vos valeurs sont : ", maListe)
