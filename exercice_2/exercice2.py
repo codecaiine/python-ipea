@@ -11,9 +11,9 @@ while True:
     valeur = input("Saisir une valeur: ")
     if valeur:
         try:
-        valeurListe.append(int(valeur))
+          valeurListe.append(int(valeur))
         except ValueError:
-        continue
+          continue
     else:
         break
 print("Valeur entrées:", valeurListe)
