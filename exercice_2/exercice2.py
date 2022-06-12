@@ -1,4 +1,4 @@
-def supprimeDoublon(liste)
+def supprimeDoublon(liste):
   initList = []
   for el in liste:
     if el not in initList:
