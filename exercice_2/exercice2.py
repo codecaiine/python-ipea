@@ -8,7 +8,7 @@ def supprimeDoublon(liste):
 print("Entrez les valeurs .. Tapez entrer pour terminer")
 valeurListe = []
 while True:
-    valeur = input("Saisir une valeur")
+    valeur = input("Saisir une valeur: ")
     if valeur:
         valeurListe.append(int(valeur))
     else:
