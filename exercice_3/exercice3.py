@@ -17,5 +17,5 @@ for i in range(length):
 
 somme_list = 0
 for n in maListe:
-    somme_list =+ n
+    somme_list=+n
 print("La somme des element dans ma liste est:", somme_list)
