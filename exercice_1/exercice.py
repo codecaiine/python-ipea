@@ -6,3 +6,5 @@ premier = semaine[0]
 semaine[0] = semaine[-1]
 dernier = semaine[-1]
 print(semaine)
+douze = semaine[-1]*12
+print(douze)
