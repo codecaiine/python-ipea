@@ -13,6 +13,7 @@ while True:
         try:
           valeurListe.append(int(valeur))
         except ValueError:
+          print("Erreur! Veuillez entrez un entier")
           continue
     else:
         break
