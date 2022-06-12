@@ -1,4 +1,4 @@
 semaine = ["lundi", "Mardi","Mercredi",
-         "Jeudi","Vendredi","Samedi", "Dimanche"
+         "Jeudi","Vendredi","Samedi", "Dimanche"]
 
 print(semaine)
