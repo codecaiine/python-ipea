@@ -19,3 +19,6 @@ somme_valeur=0
 for n in maListe:
     somme_valeur+=n
 print("La somme des element dans ma liste est:", somme_valeur)
+
+multipleListe = []
+
