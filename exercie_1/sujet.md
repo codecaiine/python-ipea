@@ -2,6 +2,12 @@
 
 ### Énoncé
 
-- Écrire une fonction supprimeDoublon(liste) qui supprime les doublons d’une liste saisie par l’utilisateur.
+> Écrire un programme python qui créé une liste semaine qui comprend les jours de la semaine, puis à l’aide de parcours successifs de la liste effectuer les actions suivantes :
+
+- Afficher la liste semaine
   
-- Si l’utilisateur à saisie la liste suivante: ([3,4,5,3,4,5,1]) l’appel de la fonction renvoie [3,4,5,1].
+- Afficher la valeur de semaine[4]
+  
+- Échanger les valeurs de la première et de la dernière case de cette liste
+  
+- Afficher 12 fois la valeur du dernier élément de la liste
