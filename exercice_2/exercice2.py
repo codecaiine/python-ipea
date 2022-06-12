@@ -10,7 +10,10 @@ valeurListe = []
 while True:
     valeur = input("Saisir une valeur: ")
     if valeur:
+        try:
         valeurListe.append(int(valeur))
+        except ValueError:
+        continue
     else:
         break
 print("Valeur entrées:", valeurListe)
