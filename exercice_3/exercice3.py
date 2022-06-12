@@ -1,0 +1,1 @@
+print("Saissir la liste d'entier : ")
