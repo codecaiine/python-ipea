@@ -1,12 +1,13 @@
-print("Saissir la liste d'entier : ")
+print("Entrez vos valeurs .. Puis taper sur la touche entrer pour terminer")
 maListe = []
-valeur = input("Veuillez entrer une valeur: ")
 while True:
+    valeur = input("Saisir une valeur: ")
     if valeur:
         try:
-            maListe.append(int(valeur))
+          maListe.append(int(valeur))
         except ValueError:
-            continue
+          print("Erreur! Veuillez entrez un entier")
+          continue
     else:
         break
 print("Vos valeurs sont : ", maListe)
