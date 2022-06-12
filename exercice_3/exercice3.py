@@ -1,5 +1,5 @@
 print("Entrez vos valeurs .. Puis taper sur la touche entrer pour terminer")
-maListe = []
+maListe=[]
 while True:
     valeur = input("Saisir une valeur: ")
     if valeur:
@@ -20,8 +20,10 @@ for n in maListe:
     somme_valeur+=n
 print("La somme des element dans ma liste est:", somme_valeur)
 
-multipleListe = []
+multipleListe=[]
 for m in maListe:
   multipleListe.append(m*3)
-  print("Ma nouvelle liste multiple de 3 est :", multipleListe)
+print("Ma nouvelle liste multiple de 3 est :", multipleListe)
+
+
 
