@@ -13,5 +13,5 @@ while True:
 print("Vos valeurs sont : ", maListe)
 length = len(maListe)
 for i in range(length):
-  print(i ":" , maListe[i])
+  print(i," : " , maListe[i])
 
