@@ -9,6 +9,9 @@ print("Entrez les valeurs .. Tapez entrer pour terminer")
 valeurListe = []
 while True:
     valeur = input("Saisir une valeur")
-    valeurListe.append(int(valeur))
-    print("Valeur entrées:", valeurListe)
+    if valeur:
+        valeurListe.append(int(valeur))
+    else:
+        break
+print("Valeur entrées:", valeurListe)
 print('La nouvelle liste est:', supprimeDoublon(valeurListe))    
