@@ -5,7 +5,7 @@ def supprimeDoublon(liste):
       initList.append(el)
   return initList
 
-print("Entrez les valeurs .. Tapez entrer pour terminer")
+print("Entrez vos valeurs .. Puis taper sur la touche entrer pour terminer")
 valeurListe = []
 while True:
     valeur = input("Saisir une valeur: ")
