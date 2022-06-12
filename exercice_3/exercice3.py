@@ -31,5 +31,12 @@ for g in maListe:
     max=g
 print("Le plus grand est: ", max)
 
+min=0
+for p in maListe:
+  if p < min:
+    min=p
+print("Le plus petit est: ", min)
+
+
 
 
