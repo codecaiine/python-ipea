@@ -15,7 +15,7 @@ length = len(maListe)
 for i in range(length):
   print(i," : " , maListe[i])
 
-somme_list = 0
+somme_valeur = 0
 for n in maListe:
-    somme_list=+n
-print("La somme des element dans ma liste est:", somme_list)
+    somme_valeur=+n
+print("La somme des element dans ma liste est:", somme_valeur)
