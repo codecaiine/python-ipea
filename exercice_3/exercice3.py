@@ -15,3 +15,7 @@ length = len(maListe)
 for i in range(length):
   print(i," : " , maListe[i])
 
+somme_list = 0
+for n in maListe:
+    somme_list =+ n
+
