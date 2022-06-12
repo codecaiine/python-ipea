@@ -3,7 +3,10 @@ maListe = []
 valeur = input("Veuillez entrer une valeur: ")
 while True:
     if valeur:
-        maListe.append(int(valeur))
+      try:
+         maListe.append(int(valeur))
+      except ValueError:
+        continue
     else:
         break
 print(maListe)
