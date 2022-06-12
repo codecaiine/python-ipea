@@ -17,5 +17,6 @@ while True:
           continue
     else:
         break
+print("** Programme Terminé **")
 print("Valeur entrées:", valeurListe)
 print('La nouvelle liste est:', supprimeDoublon(valeurListe))    
