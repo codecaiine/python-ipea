@@ -21,4 +21,7 @@ for n in maListe:
 print("La somme des element dans ma liste est:", somme_valeur)
 
 multipleListe = []
+for m in maListe:
+  multipleListe.append(m*3)
+  print("Ma nouvelle liste multiple de 3 est :", multipleListe)
 
