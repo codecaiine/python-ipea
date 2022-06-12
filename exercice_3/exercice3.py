@@ -37,6 +37,12 @@ for p in maListe:
     min=p
 print("Le plus petit est: ", min)
 
+pair=0
+for p in maListe:
+  if p %2==0:
+    pair+=1
+print("Les nombres pairs sont: ", pair)
+
 
 
 
