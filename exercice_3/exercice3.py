@@ -11,3 +11,5 @@ while True:
     else:
         break
 print("Vos valeurs sont : ", maListe)
+length = len(maListe)
+
