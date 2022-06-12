@@ -25,5 +25,11 @@ for m in maListe:
   multipleListe.append(m*3)
 print("Ma nouvelle liste multiple de 3 est :", multipleListe)
 
+max=0
+for g in maListe:
+  if g > max:
+    max=g
+print("Le plus grand est: ", max)
+
 
 
