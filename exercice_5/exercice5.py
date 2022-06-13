@@ -6,3 +6,4 @@ chaines = []
 nombres = []
 for element in stock:
     if isinstance(element, str):
+        chaines.append(element)
