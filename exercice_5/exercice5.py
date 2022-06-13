@@ -25,6 +25,7 @@ chaines.sort(key=str.lower, reverse=True)
 print("La liste des chaines triées de z à a est :", chaines)
 
 nombres.sort()
-print("Afficher les nombres du plus grand au plus petit",nombres)
+print("Afficher les nombres du plus petit au plus grand",nombres)
 
 nombres.sort(reverse=True)
+print("Afficher les nombres du plus grand au plus petit",nombres)
