@@ -41,7 +41,7 @@ pair=0
 for p in maListe:
   if p %2==0:
     pair+=1
-print("Les nombres pairs sont: ", pair)
+print("Le nombre de nombres pairs est: ", pair)
 
 
 
