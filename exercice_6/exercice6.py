@@ -4,3 +4,4 @@ moyennes.sort(reverse=True)
 print("Les trois bonnes moyennes sont :", moyennes[:3])
 
 moyennes.sort()
+print("Les trois mauvaise moyennes sont :", moyennes[:3])
