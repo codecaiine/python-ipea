@@ -13,3 +13,4 @@ print("La liste des chaines est: ",chaines)
 print("La liste des nombres est: ",nombres)
 
 nombre_str = len(chaines)
+nombre_nbr = len(nombres)
