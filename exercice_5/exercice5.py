@@ -20,3 +20,5 @@ print("Le nombre d'element dans la liste de nombres est :",nombre_nbr)
 
 chaines.sort(key=str.lower)
 print("La liste des chaines triées de a - z est :",chaines)
+
+chaines.sort(key=str.lower, reverse=True)
