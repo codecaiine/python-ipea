@@ -9,3 +9,4 @@ for element in stock:
         chaines.append(element)
     elif isinstance(element, int) or isinstance(element, float):
         nombres.append(element)
+print("La liste des chaines est: ",chaines)
