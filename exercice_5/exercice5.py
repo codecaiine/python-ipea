@@ -16,3 +16,4 @@ nombre_str = len(chaines)
 nombre_nbr = len(nombres)
 
 print("Le nombre de chaines est: ",nombre_str)
+print("Le nombre d'element dans la liste de nombres est :",nombre_nbr)
