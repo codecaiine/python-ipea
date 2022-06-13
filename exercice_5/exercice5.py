@@ -7,4 +7,4 @@ nombres = []
 for element in stock:
     if isinstance(element, str):
         chaines.append(element)
-    elif isinstance(element, int):
+    elif isinstance(element, int) or isinstance(element, float):
