@@ -23,3 +23,5 @@ print("La liste des chaines triées de a - z est :",chaines)
 
 chaines.sort(key=str.lower, reverse=True)
 print("La liste des chaines triées de z à a est :", chaines)
+
+nombres.sort()
