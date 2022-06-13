@@ -43,6 +43,13 @@ for p in maListe:
     pair+=1
 print("Le nombre de nombres pairs est: ", pair)
 
+sommePairs=0
+for p in maListe:
+  if p %2==0:
+    sommePairs+=p
+print("La somme des nombres impairs est: ", sommePairs)
+
+
 sommeImpairs=0
 for p in maListe:
   if p %2!=0:
