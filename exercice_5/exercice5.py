@@ -1,0 +1,1 @@
+stock = ["Ordinateur de bureau", "Ordinateur portable", 100, "Caméra",310.28,"Haut-parleurs", 27.00,"Télévision", 1000,"Cartes mères","souris","clavier",500,"barrettes de mémoire"]
