@@ -11,3 +11,5 @@ for element in stock:
         nombres.append(element)
 print("La liste des chaines est: ",chaines)
 print("La liste des nombres est: ",nombres)
+
+nombre_str = len(chaines)
