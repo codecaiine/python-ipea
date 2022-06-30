@@ -18,3 +18,7 @@ print("La somme totale est : ", somme)
 montant_remis = int(input('Saisir le montant remis par le client'))
 reste = montant_remis - somme
 print("Le reste est : ", reste)
+
+while reste > 10000:
+    dix_mille +=1
+    reste -= 10000
