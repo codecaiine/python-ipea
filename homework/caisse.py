@@ -21,4 +21,7 @@ print("Le reste est : ", reste)
 
 while reste > 10000:
     dix_mille +=1
-    reste -= 10000
+    reste-= 10000
+while reste > 5000:
+    cinq_mille +=1
+    reste-= 5000
