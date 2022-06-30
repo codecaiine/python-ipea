@@ -61,4 +61,4 @@ if reste < 50:
     print("Il vous reste ", reste," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
     print("Nous pouvons vous offrir des BONBONS à la place .")
 else:
-    print("La monnaie est : ", reste)
+    print("La monnaie est : ", reste, "FCFA")
