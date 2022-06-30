@@ -9,12 +9,13 @@ deux_cent = 0
 cent = 0
 cinqante = 0
 
-i = 1
-while i !=0:
-    i = int(input("Veuillez saisir le prix de l article : "))
-    liste.append(i)
-    somme = somme + i
+valeur = 1
+while valeur !=0:
+    valeur = int(input("Veuillez saisir le prix de l article : "))
+    liste.append(valeur)
+    somme = somme + valeur
 print("Le total des achats est : ", somme)
+
 montant_remis = int(input('Saisir le montant remis par le client : '))
 reste = montant_remis - somme
 print("Le reste est : ", reste)
