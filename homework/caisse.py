@@ -15,7 +15,7 @@ while valeur !=0:
         valeur = int(input("Veuillez saisir le prix de l article : "))
         listeValeur.append(valeur)
         total = total + valeur
-        print("Le total des achats est : ", total)
+        print("Le total des achats est : ", total, " FCFA")
     except ValueError:
        print("Erreur! Veuillez entrer un prix correcte !")
 
