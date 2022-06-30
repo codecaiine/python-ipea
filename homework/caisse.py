@@ -30,3 +30,5 @@ while reste > 2000:
     reste-= 2000
 while reste > 1000:
     reste-= 1000
+while reste > 500:
+    reste-= 500
