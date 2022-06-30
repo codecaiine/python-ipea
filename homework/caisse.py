@@ -5,3 +5,8 @@ cinq_mille = 0
 deux_mille = 0
 mille = 0
 cinq_cent = 0
+
+i = 1
+while i !=0:
+    i = int(input("Veuillez saisir le prix"))
+    liste.append(i)
