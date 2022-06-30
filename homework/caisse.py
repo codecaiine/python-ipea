@@ -57,7 +57,7 @@ print('Il y a {} pièce(s) de 200 FCFA'.format(deux_cent))
 print('Il y a {} pièce(s) de 100 FCFA'.format(cent))
 print('Il y a {} pièce(s) de 50 FCFA'.format(cinqante))
 
-if reste < 50:
+if reste <= 25 or reste <= 10 or reste <= 5:
     print("Il vous reste ", reste," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
     print("Nous pouvons vous offrir des BONBONS à la place .")
 else:
