@@ -17,6 +17,7 @@ while valeur !=0:
         total = total + valeur
         print("Le total des achats est : ", total)
     except ValueError:
+       print("Erreur! Veuillez entrer un prix correcte !")
 
 montant_remis = int(input('Saisir le montant remis par le client : '))
 reste = montant_remis - total
