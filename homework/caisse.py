@@ -19,7 +19,7 @@ while valeur !=0:
     except ValueError:
        print("Erreur! Veuillez entrer un prix correcte !")
 
-montant_remis = int(input('Saisir le montant remis par le client : '))
+montant_remis = int(input('Saisissez le montant remis par le client : '))
 reste = montant_remis - total
 print("Il reste ", reste, " FCFA")
 
