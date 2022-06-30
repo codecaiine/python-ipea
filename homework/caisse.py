@@ -47,6 +47,7 @@ while reste > 100:
 while reste > 50:
     cinqante +=1
     reste-= 50
+
 print('Il y a {} billet(s) de 10.000 FCFA'.format(dix_mille))
 print('Il y a {} billet(s) de 5.000 FCFA'.format(cinq_mille))
 print('Il y a {} billet(s) de 2.000 FCFA'.format(deux_mille))
@@ -55,4 +56,8 @@ print('Il y a {} billets de 500 FCFA'.format(cinq_cent))
 print('Il y a {} pièce(s) de 200 FCFA'.format(deux_cent))
 print('Il y a {} pièce(s) de 100 FCFA'.format(cent))
 print('Il y a {} pièce(s) de 50 FCFA'.format(cinqante))
-print("La monnaie est : ", reste)
+
+if reste < 50:
+    print("Il vous reste ", reste," FCFA" ,"Malheureusement nous n'avons pas de monnaie .")
+else:
+    print("La monnaie est : ", reste)
