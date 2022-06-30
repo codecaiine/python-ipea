@@ -26,8 +26,10 @@ while reste > 2000:
     deux_mille +=1
     reste-= 2000
 while reste > 1000:
+    mille +=1
     reste-= 1000
 while reste > 500:
+    cinq_cent +=1
     reste-= 500
 print('Il y a {} billets de 10.000 FCFA'.format(dix_mille))
 print('Il y a {} billets de 5.000 FCFA'.format(cinq_mille))
