@@ -1,4 +1,4 @@
-somme = 0
+total = 0
 listeValeur = []
 dix_mille = 0
 cinq_mille = 0
@@ -11,13 +11,15 @@ cinqante = 0
 
 valeur = 1
 while valeur !=0:
-    valeur = int(input("Veuillez saisir le prix de l article : "))
-    listeValeur.append(valeur)
-    somme = somme + valeur
-print("Le total des achats est : ", somme)
+    try:
+        valeur = int(input("Veuillez saisir le prix de l article : "))
+        listeValeur.append(valeur)
+        total = total + valeur
+        print("Le total des achats est : ", total)
+    except ValueError:
 
 montant_remis = int(input('Saisir le montant remis par le client : '))
-reste = montant_remis - somme
+reste = montant_remis - total
 print("Le reste est : ", reste)
 
 while reste > 10000:
