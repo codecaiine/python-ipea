@@ -21,7 +21,7 @@ while valeur !=0:
 
 montant_remis = int(input('Saisissez le montant remis par le client : '))
 reste = montant_remis - total
-print("Il reste ", reste, " FCFA")
+print("Il vous reste ", reste, " FCFA comme monnaie")
 
 while reste > 10000:
     dix_mille +=1
