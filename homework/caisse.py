@@ -17,3 +17,4 @@ while i !=0:
 print("La somme totale est : ", somme)
 montant_remis = int(input('Saisir le montant remis par le client'))
 reste = montant_remis - somme
+print("Le reste est : ", reste)
