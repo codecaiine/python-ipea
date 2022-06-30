@@ -10,3 +10,5 @@ i = 1
 while i !=0:
     i = int(input("Veuillez saisir le prix"))
     liste.append(i)
+    somme = somme + i
+print("La somme totale est : ", somme)
