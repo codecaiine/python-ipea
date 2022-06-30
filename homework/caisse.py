@@ -1,3 +1,6 @@
+from locale import MON_2
+
+
 somme = 0
 liste = []
 dix_mille = 0
@@ -12,3 +15,4 @@ while i !=0:
     liste.append(i)
     somme = somme + i
 print("La somme totale est : ", somme)
+montant_remis = int(input('Saisir le montant remis par le client'))
