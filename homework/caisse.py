@@ -32,3 +32,4 @@ while reste > 1000:
     reste-= 1000
 while reste > 500:
     reste-= 500
+print('Il y a {} billets de 10.000'.format(dix_mille))
